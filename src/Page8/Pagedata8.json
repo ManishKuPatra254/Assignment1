@@ -1,0 +1,70 @@
+{
+    "itemsnumber8": [
+        {
+            "id": 1,
+            "car_image": "https://stimg.cardekho.com/images/carexteriorimages/930x620/Mercedes-Benz/E-Class/10855/1690452177573/front-left-side-47.jpg",
+            "car_name": "Mercedes-Benz E-Class ",
+            "car_model_year": 2021,
+            "people_range": "4 People",
+            "car_type": "Hybrid",
+            "car_km": "6.1km / 1-litre",
+            "car_run": "Automatic",
+            "car_price" : "$520 / month"
+        },
+        {
+            "id": 2,
+            "car_image": "https://cdni.autocarindia.com/Utils/ImageResizer.ashx?n=https://cdni.autocarindia.com/ExtraImages/20230814080227_Aston_martin_DB12_volante.jpg",
+            "car_name": "Aston Martin DB12 Volante",
+            "car_model_year": 2019,
+            "people_range": "4 People",
+            "car_type": "Gasoline",
+            "car_km": "8.2km / 1-litre",
+            "car_run": "Automatic",
+            "car_price" : "$380 / month"
+        },
+        {
+            "id": 3,
+            "car_image": "https://stimg.cardekho.com/images/carexteriorimages/930x620/Porsche/911/10990/1690869580714/front-left-side-47.jpg",
+            "car_name": "Porsche 911 ",
+            "car_model_year": 2020,
+            "people_range": "4 People",
+            "car_type": "Gasoline",
+            "car_km": "5.3km / 1-litre",
+            "car_run": "Automatic",
+            "car_price" : "$500 / month"
+        },
+        {
+            "id": 4,
+            "car_image": "https://images.hindustantimes.com/auto/img/2022/05/31/1600x900/Land_Rover_Defender_130___3_1653991863473_1653992022869.jpg",
+            "car_name": "Land Rover Defender 130",
+            "car_model_year": 2023,
+            "people_range": "4 People",
+            "car_type": "Gasoline",
+            "car_km": "7.7km / 1-litre",
+            "car_run": "Automatic",
+            "car_price" : "$420 / month"
+        },
+        {
+            "id": 5,
+            "car_image": "https://images.carandbike.com/cms/articles/2023/5/3207230/MG_Hector_Shine_76f7c4f92f.jpg",
+            "car_name": "MG Hector",
+            "car_model_year": 2021,
+            "people_range": "4 People",
+            "car_type": "Gasoline",
+            "car_km": "7.6km / 1-litre",
+            "car_run": "Automatic",
+            "car_price" : "$880 / month"
+        },
+        {
+            "id": 6,
+            "car_image": "https://imgd.aeplcdn.com/642x336/n/cw/ec/106815/creta-facelift-exterior-left-front-three-quarter-2.jpeg?isig=0&q=80",
+            "car_name": "Hyundai Creta",
+            "car_model_year": 2019,
+            "people_range": "4 People",
+            "car_type": "Gasoline",
+            "car_km": "7.2km / 1-litre",
+            "car_run": "Automatic",
+            "car_price" : "$418 / month"
+        }
+    ]
+}

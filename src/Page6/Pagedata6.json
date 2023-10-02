@@ -1,0 +1,73 @@
+{
+    "itemsnumber6": [
+        {
+            "id": 1,
+            "car_image": "https://media.istockphoto.com/id/1388853267/photo/blue-toyota-rav4-on-dirt-road-in-utah-wilderness.jpg?s=612x612&w=0&k=20&c=uVYvQ9tMRwDls_bwA4i9ozHa3AA2g3K3z1rwxD8f6Fo=",
+            "car_name": "Toyota RAV4",
+            "car_model_year": 2021,
+            "people_range": "4 People",
+            "car_type": "Hybrid",
+            "car_km": "6.1km / 1-litre",
+            "car_run": "Automatic",
+            "car_price" : "$440 / month"
+        },
+        {
+            "id": 2,
+            "car_image": "https://financialexpresswpcontent.s3.amazonaws.com/uploads/2017/05/05-e1494739897506.jpg",
+            "car_name": "BMW 3 Series",
+            "car_model_year": 2019,
+            "people_range": "4 People",
+            "car_type": "Gasoline",
+            "car_km": "8.2km / 1-litre",
+            "car_run": "Automatic",
+            "car_price" : "$350 / month"
+        },
+        {
+            "id": 3,
+            "car_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/2019_Volkswagen_T-Cross_First_Edition_TSi_1.0.jpg/1200px-2019_Volkswagen_T-Cross_First_Edition_TSi_1.0.jpg",
+            "car_name": "Volkswagen T-Cross",
+            "car_model_year": 2020,
+            "money": "$6.12",
+            "people_range": "4 People",
+            "car_type": "Gasoline",
+            "car_km": "5.3km / 1-litre",
+            "car_run": "Automatic",
+            "car_price" : "$400 / month"
+        },
+        {
+            "id": 4,
+            "car_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/d2/45/8c/caption.jpg?w=1200&h=-1&s=1",
+            "car_name": "Cadlliac Escalade",
+            "car_model_year": 2020,
+            "people_range": "4 People",
+            "car_type": "Gasoline",
+            "car_km": "7.7km / 1-litre",
+            "car_run": "Automatic",
+            "car_price" : "$620 / month"
+        },
+        {
+            "id": 5,
+            "car_image": "https://images.carexpert.com.au/crop/800/500/vehicles/source-g/1/d/1d56ea01.jpg",
+            "car_name": "BMW 4 Series GTI",
+            "car_model_year": 2021,
+            "money": "$0.00",
+            "people_range": "4 People",
+            "car_type": "Gasoline",
+            "car_km": "7.6km / 1-litre",
+            "car_run": "Automatic",
+            "car_price" : "$530 / month"
+        },
+        {
+            "id": 6,
+            "car_image": "https://s3.amazonaws.com/bmwmedia.iconicweb.com/mediasite/libraryImages/P90424581_highRes__mid.jpg",
+            "car_name": "BMW 4 Series",
+            "car_model_year": 2019,
+            "money": "$6.80",
+            "people_range": "4 People",
+            "car_type": "Gasoline",
+            "car_km": "7.2km / 1-litre",
+            "car_run": "Automatic",
+            "car_price" : "$490 / month"
+        }
+    ]
+}

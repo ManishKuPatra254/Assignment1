@@ -1,18 +1,18 @@
 import React, { Fragment } from 'react'
-import styles from './Page3.module.css';
-import itemsdata3 from './Pagedata3.json';
+import styles from './Page10.module.css';
+import itemsdata10 from './Pagedata10.json';
 import LocalGasStationIcon from '@mui/icons-material/LocalGasStation';
 import PeopleAltOutlinedIcon from '@mui/icons-material/PeopleAltOutlined';
 import SpeedOutlinedIcon from '@mui/icons-material/SpeedOutlined';
 import AttractionsOutlinedIcon from '@mui/icons-material/AttractionsOutlined';
 import FavoriteBorderOutlinedIcon from '@mui/icons-material/FavoriteBorderOutlined';
 
-export function Page3() {
+export function Page10() {
     return (
         <Fragment>
             <div className={styles.main_page1}>
                 {
-                    itemsdata3.itemsnumber3.map(items => (
+                    itemsdata10.itemsnumber10.map(items => (
                         <div className={styles.sub_page1} key={items.id}>
                             <img src={items.car_image} alt="" />
                             <div className={styles.car_names}>
@@ -20,11 +20,11 @@ export function Page3() {
                                 <h4>{items.car_model_year}</h4>
                             </div>
                             <div className={styles.car_types}>
-                                <p><PeopleAltOutlinedIcon sx={{ color: 'rgb(10, 170, 234)' }}  />{items.people_range}</p>
+                                <p><PeopleAltOutlinedIcon sx={{ color: 'rgb(10, 170, 234)' }} />{items.people_range}</p>
                                 <p><LocalGasStationIcon sx={{ color: 'rgb(10, 170, 234)' }} />{items.car_type}</p>
                             </div>
                             <div className={styles.car_num}>
-                                <p><SpeedOutlinedIcon sx={{ color: 'rgb(10, 170, 234)' }}  />{items.car_km}</p>
+                                <p><SpeedOutlinedIcon sx={{ color: 'rgb(10, 170, 234)' }} />{items.car_km}</p>
                                 <p><AttractionsOutlinedIcon sx={{ color: 'rgb(10, 170, 234)' }} />{items.car_run}</p>
                             </div>
                             <hr />

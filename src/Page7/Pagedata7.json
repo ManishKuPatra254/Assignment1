@@ -1,0 +1,73 @@
+{
+    "itemsnumber7": [
+        {
+            "id": 1,
+            "car_image": "https://bsmedia.business-standard.com/_media/bs/img/article/2020-12/18/full/1608302898-1142.jpg",
+            "car_name": "Lamborghini Aventador",
+            "car_model_year": 2021,
+            "people_range": "4 People",
+            "car_type": "Hybrid",
+            "car_km": "6.1km / 1-litre",
+            "car_run": "Automatic",
+            "car_price" : "$420 / month"
+        },
+        {
+            "id": 2,
+            "car_image": "https://images.news18.com/ibnlive/uploads/2018/01/new_bmw_i8_gets.c3fde113806.original.jpg",
+            "car_name": "BMW i8",
+            "car_model_year": 2019,
+            "people_range": "4 People",
+            "car_type": "Gasoline",
+            "car_km": "8.2km / 1-litre",
+            "car_run": "Automatic",
+            "car_price" : "$360 / month"
+        },
+        {
+            "id": 3,
+            "car_image": "https://cdn.bmwblog.com/wp-content/uploads/2022/01/BMW-M8-Competition-Manhart-3.jpg",
+            "car_name": "BMW M8 ",
+            "car_model_year": 2020,
+            "money": "$6.12",
+            "people_range": "4 People",
+            "car_type": "Gasoline",
+            "car_km": "5.3km / 1-litre",
+            "car_run": "Automatic",
+            "car_price" : "$480 / month"
+        },
+        {
+            "id": 4,
+            "car_image": "https://www.topgear.com/sites/default/files/2023/08/P90492179_highRes_bmw-i7-xdrive60-m-sp%20%281%29.jpg",
+            "car_name": "BMW 7 Series",
+            "car_model_year": 2020,
+            "people_range": "4 People",
+            "car_type": "Gasoline",
+            "car_km": "7.7km / 1-litre",
+            "car_run": "Automatic",
+            "car_price" : "$420 / month"
+        },
+        {
+            "id": 5,
+            "car_image": "https://stimg.cardekho.com/images/carexteriorimages/930x620/Land-Rover/Discovery/8514/1646805311941/front-left-side-47.jpg",
+            "car_name": "Land Rover Discovery",
+            "car_model_year": 2021,
+            "money": "$0.00",
+            "people_range": "4 People",
+            "car_type": "Gasoline",
+            "car_km": "7.6km / 1-litre",
+            "car_run": "Automatic",
+            "car_price" : "$890 / month"
+        },
+        {
+            "id": 6,
+            "car_image": "https://www.topgear.com/sites/default/files/cars-car/image/2021/07/5043-SwiftSportHybrid.jpg?w=1280&h=720",
+            "car_name": "Suzuki Swift",
+            "car_model_year": 2019,
+            "money": "$6.80",
+            "people_range": "4 People",
+            "car_type": "Gasoline",
+            "car_km": "7.2km / 1-litre",
+            "car_run": "Automatic",
+            "car_price" : "$410 / month"
+        }
+    ]
+}
