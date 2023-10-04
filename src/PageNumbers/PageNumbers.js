@@ -1,24 +1,51 @@
-import React, { Fragment } from 'react'
-import { Link } from 'react-router-dom'
-import styles from './PageNumbers.module.css'
+import React, { Fragment } from 'react';
+import { Link, useParams, useNavigate } from 'react-router-dom';
+import styles from './PageNumbers.module.css';
 
 export function PageNumbers() {
+    const { page } = useParams();
+    const navigate = useNavigate();
+
+    const latestPage = parseInt(page, 1) || 11;
+
+    function activePages() {
+        const activepages = [];
+        const totalPages = 10;
+        for (let i = 1; i <= totalPages; i++) {
+            activepages.push(
+                <Link key={i} to={`/page${i}`}>
+                    <button className={i === latestPage ? 'active' : ''}>
+                        {i}
+                    </button>
+                </Link>
+            );
+        }
+        return activepages;
+    }
+
+    function previousPage() {
+        if (latestPage > 1) {
+            navigate(`/page${latestPage - 1}`);
+        }
+    }
+
+    function nextPage() {
+        if (latestPage < 10) {
+            navigate(`/page${latestPage + 1}`);
+        }
+    }
+
     return (
         <Fragment>
             <div className={styles.main_page_number}>
-                <Link ><button>Previous</button></Link>
-                <Link to={'/'}><button>1</button></Link>
-                <Link to={'/page2'}><button>2</button></Link>
-                <Link to={'/page3'}><button>3</button></Link>
-                <Link to={'/page4'}><button>4</button></Link>
-                <Link to={'/page5'}><button>5</button></Link>
-                <Link to={'/page6'}><button>6</button></Link>
-                <Link to={'/page7'}><button>7</button></Link>
-                <Link to={'/page8'}><button>8</button></Link>
-                <Link to={'/page9'}><button>9</button></Link>
-                <Link to={'/page10'}><button>10</button></Link>
-                <Link><button>Next</button></Link>
+                <button onClick={previousPage} disabled={latestPage === 1}>
+                    Previous
+                </button>
+                {activePages()}
+                <button onClick={nextPage} disabled={latestPage === 10}>
+                    Next
+                </button>
             </div>
         </Fragment>
-    )
+    );
 }
