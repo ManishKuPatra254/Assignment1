@@ -20,3 +20,9 @@ The Car Seller App is a platform designed to help users rent and sell cars with 
 
 ![Screenshot 2023-10-04 090620](https://github.com/ManishKuPatra254/Assignment1/assets/112771729/fc9a5c31-f60d-4522-8c7b-ed49d1d96ff6)
 
+![Screenshot 2023-10-04 090759](https://github.com/ManishKuPatra254/Assignment1/assets/112771729/475d730c-1b06-4051-92d6-51877f231189)
+
+![Screenshot 2023-10-04 090903](https://github.com/ManishKuPatra254/Assignment1/assets/112771729/89ca7253-ebde-4ffd-96a3-b6714316eb07)
+
+
+
